@@ -12,138 +12,150 @@
 	<header>
 		<nav class="navbar navbar-default">
 			<ul class="nav navbar-nav">
-				<li class="navbar-brand">Home</li>
-				<li class="navbar-brand">About Us</li>
-				<li class="navbar-brand">Contact</li>
+				<li class="navbar-brand"><a href="#home">Home</a></li>
+				<li class="navbar-brand"><a href="#aboutUs">About Us</a></li>
+				<li class="navbar-brand"><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section id="home" class="home">
+		<section id="home" class="home"> <!-- TAMPILAN UTAMA -->
 			<div class="titles">
 				<div class="titles-wrap">
 					<h1>We're <span>Sciendatrei</span></h1>
 					<h2><span class="txt-rotate"></span></h2>
 				</div>
 			</div>
+		</section>	<!-- TAMPILAN UTAMA -->
+
+		<section id="aboutUs">
+			
 		</section>
 
-		<section class="work" id="work">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10">
-					<div class="sec-title">
-						<h2>Secret Picture</h2>
+		<section class="secret-picture"> <!-- SECRET PICTURE -->		
+			<section class="work" id="work">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-10">
+							<div class="sec-title">
+								<h2>Secret Picture</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<ul class="list-filter">
+							<li><a class="lists active" data-filter="*">All</a></li>
+							<li><a class="lists" data-filter=".ferry">Ferry</a></li>
+							<li><a class="lists" data-filter=".firman">Firman</a></li>
+							<li><a class="lists" data-filter=".ilham">Ilham</a></li>
+						</ul>
+					</div>
+
+					<div class="container">
+						<div class="row projects-wrapper">
+							<div class="col-12 col-sm-6 col-md-6 col-lg-4 ferry">
+								<div class="work-box">
+									<a href="images/ferry.jpg" class="popup-image">
+										<img src="images/ferry.jpg" alt="work image" class="work-img img-fluid">
+										<div class="work-overlay">
+											<div class="work-caption text-white text-center">
+												<div class="overlay-icon-holder">
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<div class="overlay-icons">
+																<i class="mdi mdi-link"></i>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<h5>Ferry</h5>
+												<p>September 17, 2019</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 col-sm-6 col-md-6 col-lg-4 ferry">
+								<div class="work-box">
+									<a href="images/ferry_2.jpg" class="popup-image">
+										<img src="images/ferry_2.jpg" alt="work image 2" class="work-img img-fluid">
+										<div class="work-overlay">
+											<div class="work-caption text-white text-center">
+												<div class="overlay-icon-holder">
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<div class="overlay-icons">
+																<i class="mdi mdi-link"></i>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<h5>Ferry</h5>
+												<p>September 2, 2019</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 col-sm-6 col-md-6 col-lg-4 ilham">
+								<div class="work-box">
+									<a href="images/ilham_2.jpg" class="popup-image">
+										<img src="images/ilham_2.jpg" alt="work image 3" class="work-img img-fluid">
+										<div class="work-overlay">
+											<div class="work-caption text-white text-center">
+												<div class="overlay-icon-holder">
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<div class="overlay-icons">
+																<i class="mdi mdi-link"></i>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<h5>Ilham</h5>
+												<p>November 18 2019</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 col-sm-6 col-md-6 col-lg-4 firman">
+								<div class="work-box">
+									<a href="images/firman.jpg" class="popup-image">
+										<img src="images/firman.jpg" alt="work image 4" class="work-img img-fluid">
+										<div class="work-overlay">
+											<div class="work-caption text-white text-center">
+												<div class="overlay-icon-holder">
+													<ul class="list-inline">
+														<li class="list-inline-item">
+															<div class="overlay-icons">
+																<i class="mdi mdi-link"></i>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<h5>Firman</h5>
+												<p>11th April 2020</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+			</section>
+		</section>	<!-- SECRET PICTURE -->
+
+		<section id="contact" class="contact-section">
+			<div class="contact-section-header">
+				<h2>Let's Study Together</h2>
 			</div>
-
-			<div class="row">
-				<ul class="list-filter">
-					<li><a class="lists active" data-filter="*">All</a></li>
-					<li><a class="lists" data-filter=".ferry">Ferry</a></li>
-					<li><a class="lists" data-filter=".firman">Firman</a></li>
-					<li><a class="lists" data-filter=".ilham">Ilham</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<div class="row projects-wrapper">
-					<div class="col-12 col-sm-6 col-md-6 col-lg-4 ferry">
-						<div class="work-box">
-							<a href="images/ferry.jpg" class="popup-image">
-								<img src="images/ferry.jpg" alt="work image" class="work-img img-fluid">
-								<div class="work-overlay">
-									<div class="work-caption text-white text-center">
-										<div class="overlay-icon-holder">
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<div class="overlay-icons">
-														<i class="mdi mdi-link"></i>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<h5>Ferry</h5>
-										<p>September 17, 2019</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-12 col-sm-6 col-md-6 col-lg-4 ferry">
-						<div class="work-box">
-							<a href="images/ferry_2.jpg" class="popup-image">
-								<img src="images/ferry_2.jpg" alt="work image 2" class="work-img img-fluid">
-								<div class="work-overlay">
-									<div class="work-caption text-white text-center">
-										<div class="overlay-icon-holder">
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<div class="overlay-icons">
-														<i class="mdi mdi-link"></i>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<h5>Ferry</h5>
-										<p>September 2, 2019</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-12 col-sm-6 col-md-6 col-lg-4 ilham">
-						<div class="work-box">
-							<a href="images/ilham_2.jpg" class="popup-image">
-								<img src="images/ilham_2.jpg" alt="work image 3" class="work-img img-fluid">
-								<div class="work-overlay">
-									<div class="work-caption text-white text-center">
-										<div class="overlay-icon-holder">
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<div class="overlay-icons">
-														<i class="mdi mdi-link"></i>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<h5>Ilham</h5>
-										<p>November 18 2019</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-12 col-sm-6 col-md-6 col-lg-4 firman">
-						<div class="work-box">
-							<a href="images/firman.jpg" class="popup-image">
-								<img src="images/firman.jpg" alt="work image 4" class="work-img img-fluid">
-								<div class="work-overlay">
-									<div class="work-caption text-white text-center">
-										<div class="overlay-icon-holder">
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<div class="overlay-icons">
-														<i class="mdi mdi-link"></i>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<h5>Firman</h5>
-										<p>11th April 2020</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
+		</section>
 	</main>
 	
 	<script src="js/jquery-3.4.1.min.js"></script>
